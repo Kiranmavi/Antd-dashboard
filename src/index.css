@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background: #0f0f14;
+  /* deep purple/black gradient vibe is optional; solid is fine */
+  color: rgba(255, 255, 255, 0.95);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.clickableCursor {
+  cursor: pointer;
+}
+
+:root {
+  /* Colors */
+  --primary-bg: #1d1336;
+  --secondary-bg: #170c45;
+  --accent-purple: #ad46f2;
+  --accent-pink: #a2008f;
+  --accent-blue: #7676a8;
+  --white: #fff;
+  --black: #000;
+  --white-08: rgba(255, 255, 255, 0.08);
+  --white-02: rgba(255, 255, 255, 0.2);
+  --white-01: rgba(255, 255, 255, 0.1);
+  --white-03: rgba(255, 255, 255, 0.03);
+  --black-35: rgba(0, 0, 0, 0.35);
+  --opacity-07: 0.7;
+  --opacity-08: 0.8;
+  --opacity-03: 0.3;
+  --opacity-095: 0.95;
+
+  /* Font Sizes */
+  --font-xs: 14px;
+  --font-sm: 16px;
+  --font-md: 18px;
+  --font-lg: 20px;
+  --font-xl: 26px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 6px;
+  --spacing-md: 8px;
+  --spacing-lg: 10px;
+  --spacing-xl: 12px;
+  --spacing-2xl: 15px;
+  --spacing-3xl: 16px;
+  --spacing-4xl: 20px;
+  --spacing-5xl: 24px;
+  --spacing-6xl: 26px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 50%;
+
+  /* Heights */
+  --header-height: 10vh;
+  --full-height: 100vh;
+  --icon-size-sm: 18px;
+  --icon-size-md: 20px;
+  --icon-size-lg: 56px;
+
+  /* Widths */
+  --sidebar-width: 4%;
+  --card-width: 120px;
+  --search-width: 30%;
+}

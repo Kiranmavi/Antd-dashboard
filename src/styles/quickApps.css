@@ -1,0 +1,48 @@
+.quickAppsMainContainer {
+    padding: 15px;
+    background: var(--white-02);
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.quickAppsMainContainer .ant-row {
+    flex-flow: nowrap !important;
+    overflow: hidden;
+}
+
+.quickappsRow {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+.quickappsCard {
+    width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid var(--white);
+    background: var(--black-35);
+}
+
+.quickappsAvatar {
+    background: var(--white-01);
+    margin-top: 8px;
+}
+
+.quickappsLabel {
+    margin-top: 8px;
+    color: var(--white);
+}
+
+.quickAppsInnerContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.quickAppsInnerContainer::-webkit-scrollbar {
+    display: none;
+}

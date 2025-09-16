@@ -1,0 +1,62 @@
+.managementOuterContainer {
+    margin-top: 10vh;
+    padding: 26px;
+}
+
+.appLinksBar {
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.appLinksLabel {
+    font-size: calc(var(--font-xs) + 2px);
+    font-weight: 600;
+    color: var(--white);
+}
+
+.appLinksSegmented {
+    background: transparent !important;
+}
+
+.appLinksSegmented .ant-segmented-item-selected {
+    background: transparent;
+    border: 1px solid var(--accent-pink) !important;
+    color: var(--accent-pink) !important;
+}
+
+.appLinksSegmented .ant-segmented-item {
+    background: var(--black);
+    margin: 2px;
+}
+
+.questionCircleOutlined {
+    font-size: calc(var(--font-xs) + 2px);
+    opacity: 0.7
+}
+
+.appLinksBarMainContainer {
+    background: var(--secondary-bg);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.searchContainer {
+    width: 30%;
+}
+
+.searchInput {
+    background: var(--accent-blue) !important;
+    color: var(--white) !important;
+}
+
+.leftIcon {
+    opacity: 0.3
+}
+
+.appLinksAndQuickAppsContainer {
+    display: flex;
+    flex-direction: column;
+}

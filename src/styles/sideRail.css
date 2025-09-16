@@ -1,0 +1,57 @@
+.slider {
+    background: var(--secondary-bg);
+    border-right: 1px solid var(--white-08);
+    width: 4% !important;
+    flex: 0px 4% !important;
+    max-width: 4% !important;
+    min-width: 4% !important;
+}
+
+.sliderIconsSection {
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px 12px 10px;
+}
+
+.topIconsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    align-items: center
+}
+
+.appIcon {
+    height: 56px;
+    display: flex;
+    align-items: center
+}
+
+.appIconSubPart {
+    font-size: calc(var(--font-xl) + 2px);
+}
+
+.folderIcon {
+    font-size: calc(var(--font-md) + 2px);
+    background: var(--accent-blue);
+    padding: 4px 6px 4px 6px;
+}
+
+.bottomIconsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center,
+}
+
+.bottomSubIconSection {
+    font-size: calc(var(--font-md) + 2px);
+    cursor: pointer;
+}
+
+.bottomBackIcon {
+    padding-top: 10px;
+}

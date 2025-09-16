@@ -1,0 +1,43 @@
+.headerOutlineSection {
+    padding: 0 24px;
+    height: 10vh;
+    width: 96%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08),
+}
+
+.managementBreadCrumb {
+    color: var(--accent-purple);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 6px
+}
+
+.whatsNew {
+    color: var(--accent-purple);
+}
+
+.robotOutlined {
+    background: var(--accent-purple);
+}
+
+.whatsNewContainer {
+    padding: 0px;
+}
+
+.bellIcon {
+    border-radius: 50%;
+    background-color: var(--black);
+
+    border: 1px solid var(--white);
+}
+
+.bellIconSubSection {
+    font-size: calc(var(--font-sm) + 2px);
+    margin: 3px;
+}

@@ -1,0 +1,68 @@
+.modulesGridOuterContainer{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.modulesHeaderSection{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.managementHeaderContent{
+    font-weight: 600;
+    font-size: calc(var(--font-md) + 2px);
+}
+.searchbarAndSortingSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.searchInput{
+    background: var(--accent-blue) !important;
+    color:var(--white) !important;
+}
+.moduleCard {
+    border-radius: 6px;
+    background: var(--white-03);
+    color: var(--white);
+    border: 1px solid var(--white);
+  }
+.ant-card .ant-card-bordered{
+    border: 1x solid var(--white) !important;
+} 
+.moduleCardHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: var(--white);
+}
+  
+.moduleCardIcon {
+    width: 20px;
+    height: 20px;
+}
+  
+.moduleRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+}
+  
+.moduleLabel {
+    opacity: 0.8;
+}
+  
+.moduleValue {
+    opacity: 0.95;
+    font-weight: 500;
+}
+.ant-card-body{
+    border-top: 1px solid var(--white);
+}
+.ant-card-body:hover{
+    border:none ;
+}
