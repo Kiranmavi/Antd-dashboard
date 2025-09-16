@@ -2,9 +2,7 @@ import React from 'react';
 import { Layout, Tooltip } from 'antd';
 import {
   AppstoreFilled,
-  HomeOutlined,
   FolderOpenOutlined,
-  BarChartOutlined,
   QuestionCircleOutlined,
   SettingOutlined,
   ArrowLeftOutlined,

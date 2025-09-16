@@ -10,7 +10,7 @@ import {
     type MenuProps,
 } from 'antd';
 import "../index.css"
-import { ThunderboltOutlined, BellOutlined, UserOutlined, RobotOutlined } from '@ant-design/icons';
+import { BellOutlined, UserOutlined, RobotOutlined } from '@ant-design/icons';
 import "../styles/header.css";
 
 const { Header } = Layout;
@@ -35,7 +35,7 @@ export default function HeaderBar() {
 
             <Space size="middle" align="center">
                 <Button type='link' className='whatsNewContainer'>
-                    <span className='clickableCursor whatsNew'>What’s new?</span>
+                    <span className='clickableCursor whatsNew'>What's new?</span>
                 </Button>
                 <Avatar size="small" className='robotOutlined' icon={<RobotOutlined />} />
                 <Badge dot className='bellIcon'>

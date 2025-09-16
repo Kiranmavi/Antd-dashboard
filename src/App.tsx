@@ -5,7 +5,6 @@ import Header from "../src/components/header";
 import ManagementSystem from "../src/pages/dashboard/managementSytsem";
 import Footer from "../src/components/footer"
 import './App.css';
-import { Button } from 'antd';
 
 const { Content } = Layout;
 

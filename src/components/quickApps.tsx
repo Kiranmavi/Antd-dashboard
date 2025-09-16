@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Avatar } from "antd";
+import { Col, Card, Avatar } from "antd";
 import {
     WindowsOutlined,
     TeamOutlined,

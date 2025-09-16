@@ -2,7 +2,7 @@
     padding-top: 10vh;
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:var(--spacing-sm);
 }
 .modulesHeaderSection{
     display: flex;
@@ -25,7 +25,7 @@
     color:var(--white) !important;
 }
 .moduleCard {
-    border-radius: 6px;
+    border-radius: var(--radius-md);
     background: var(--white-03);
     color: var(--white);
     border: 1px solid var(--white);
@@ -36,20 +36,20 @@
 .moduleCardHeader {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: var(--spacing-sm);
     font-weight: 600;
     color: var(--white);
 }
   
 .moduleCardIcon {
-    width: 20px;
-    height: 20px;
+    width: calc(var(--font-md) + 2px);
+    height: calc(var(--font-md) + 2px);
 }
   
 .moduleRow {
     display: flex;
     justify-content: space-between;
-    margin: 4px 0;
+    margin: var(--spacing-xs) 0;
 }
   
 .moduleLabel {
