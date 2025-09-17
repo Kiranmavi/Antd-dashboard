@@ -1,0 +1,13 @@
+.footerMainContainer{
+    background: transparent;
+    border-top: 1px solid var(--white-08);
+    padding: var(--spacing-sm);
+    color: var(--white);
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-sm);
+}
