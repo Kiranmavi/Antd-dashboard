@@ -1,15 +1,24 @@
 .slider {
-    background: var(--secondary-bg);
-    border-right: 1px solid var(--white-08);
-    width: 4% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
     flex: 0px 4% !important;
     max-width: 4% !important;
     min-width: 4% !important;
+    position: fixed;
+}
+
+.sliderMainContainer{
+    display: flex;
+    width:4%;
+    background: var(--secondary-bg);
+    border-right: 1px solid var(--white-08);
 }
 
 .sliderIconsSection {
     height: 100vh;
-    position: fixed;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,12 +29,16 @@
 .topIconsSection {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-sm);
-    align-items: center
+    gap: var(--spacing-xl);
+    align-items: center;
+}
+.logoIconPart{
+    margin-top: 3px;
+    margin-bottom: 10px;
 }
 
 .appIcon {
-    height: 56px;
+    /* height: 56px; */
     display: flex;
     align-items: center
 }

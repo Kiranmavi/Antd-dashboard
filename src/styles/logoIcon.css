@@ -1,0 +1,5 @@
+.logo{
+    object-fit: contain;
+    border-radius:50%;
+    display: inline-block,
+}

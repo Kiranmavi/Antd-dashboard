@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Input, Space, Button } from "antd";
 import { SearchOutlined, FilterOutlined, SortAscendingOutlined } from "@ant-design/icons";
-import "../styles/modulesGrid.css"
+import "../styles/modulesGrid.css";
+import LogoIcon from "./logoIcon";
 
 const MODULES = [
     {
@@ -96,6 +97,7 @@ export default function ModulesGrid() {
                             title={
                                 <div className="moduleCardHeader">
                                     {/* <LogoIcon className="module-card-icon" /> */}
+                                    <LogoIcon size={30} />
                                     <span>{m.title}</span>
                                 </div>
                             }

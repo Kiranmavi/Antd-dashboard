@@ -37,7 +37,7 @@ export default function QuickApps() {
                 {APPS.map((app) => (
                     <Col key={app.label}>
                         <Card key={app.label} hoverable size="small" className="quickappsCard">
-                            <Avatar shape="square" size="large" className="quickappsAvatar" />
+                            <Avatar shape="square" size="large" className="quickappsAvatar" >{app.label[0]}</Avatar>
                             <div className="quickappsLabel">{app.label}</div>
                         </Card>
                     </Col>

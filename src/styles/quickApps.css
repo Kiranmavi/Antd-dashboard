@@ -1,5 +1,5 @@
 .quickAppsMainContainer {
-    padding: var(--spacing-sm);
+    padding: var(--spacing-xl);
     background: var(--white-02);
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -28,6 +28,7 @@
 .quickappsAvatar {
     background: var(--white-01);
     margin-top: 8px;
+    font-weight: 600;
 }
 
 .quickappsLabel {
