@@ -4,7 +4,6 @@ A modern dashboard built with Ant Design. This project focuses on clean typograp
 
 ## Demo
 - [Live Demo](https://antd-dashboard-sample.netlify.app/)  
-- [Source Code](https://github.com/Kiranmavi/Antd-dashboard)
 
 ## Features
 - **Quick Apps placeholders**: No image assets are used; app tiles display initials as placeholders for a clean, lightweight UI.
