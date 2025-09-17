@@ -96,7 +96,6 @@ export default function ModulesGrid() {
                             className="moduleCard"
                             title={
                                 <div className="moduleCardHeader">
-                                    {/* <LogoIcon className="module-card-icon" /> */}
                                     <LogoIcon size={30} />
                                     <span>{m.title}</span>
                                 </div>

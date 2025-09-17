@@ -1,5 +1,5 @@
 .headerOutlineSection {
-    padding: 0 24px;
+    padding: 0 var(--spacing-5xl);
     height: 10vh;
     width: 96%;
     position: fixed;

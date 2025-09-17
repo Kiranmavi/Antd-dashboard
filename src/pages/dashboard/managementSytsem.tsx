@@ -15,7 +15,6 @@ export default function ManagementSystem() {
                 <div className='appLinks'>
                     <div className="appLinksBarMainContainer">
                         <Row align="middle" justify={"start"}  >
-                            {/* Left side */}
                             <Col>
                                 <Text strong className="appLinksLabel">
                                     App links{" "}
@@ -24,8 +23,6 @@ export default function ManagementSystem() {
                                     </Tooltip>
                                 </Text>
                             </Col>
-
-                            {/* Right side */}
                             <Col>
                                 <Segmented size="middle" options={["All", "Favorites", "Recently accessed"]} defaultValue="All" className="appLinksSegmented" />
                             </Col>
